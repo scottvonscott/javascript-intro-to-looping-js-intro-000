@@ -25,6 +25,6 @@ do {
   console.log("I run once regardless.");
 } while (incrementVariable() < num);{
   console.log("I run once regardless.")
-  num += 1
+  incrementVariable() += 1
 }
 }
